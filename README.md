@@ -1,5 +1,5 @@
 # Banking-Data-Analysis-in-SQL
-Introduction:
+**Introduction:**
 
 Welcome to my SQL banking data analysis project! This project delves into a comprehensive dataset comprising Customers, Accounts, Transactions, and Branches tables. By leveraging SQL queries, I sought to uncover valuable insights and answer specific questions that can help a bank enhance its services, detect potential fraud, and optimize operations.
 
@@ -8,11 +8,11 @@ In this project, I used the STAR (Situation, Task, Action, Result) method to str
 Feel free to explore the insights and findings, and I hope you find this analysis both informative and useful!
 
 
-Situation:
+**Situation:**
 
 In a banking environment, it's crucial to understand customer behaviors, transaction patterns, and overall financial health. I was tasked with analyzing banking data to derive actionable insights. The dataset included several tables: Customers, Accounts, Transactions, and Branches, with relationships established between them. The goal was to answer specific questions that would help the bank improve its services and operations.
 
-Task:
+**Task:**
 
 1.The objective was to analyze the banking data to answer the following ten questions:
 
