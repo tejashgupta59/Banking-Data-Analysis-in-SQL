@@ -35,3 +35,13 @@ In a banking environment, it's crucial to understand customer behaviors, transac
 10.Find the branch with the highest average account balance.
 
 11.Calculate the average balance per customer at the end of each month over the past year.
+
+
+**Action:**
+To achieve these objectives, I performed the following actions:
+
+
+**Data Preparation:**
+Loaded the data from the respective tables (Customers, Accounts, Transactions, Branches).
+
+Ensured that the relationships between tables were correctly established for accurate querying.
