@@ -1,5 +1,5 @@
 # Banking-Data-Analysis-in-SQL
-**Introduction:**
+## Introduction:
 
 Welcome to my SQL banking data analysis project! This project delves into a comprehensive dataset comprising Customers, Accounts, Transactions, and Branches tables. By leveraging SQL queries, I sought to uncover valuable insights and answer specific questions that can help a bank enhance its services, detect potential fraud, and optimize operations.
 
@@ -8,11 +8,12 @@ In this project, I used the STAR (Situation, Task, Action, Result) method to str
 Feel free to explore the insights and findings, and I hope you find this analysis both informative and useful!
 
 
-**Situation:**
+## Situation:
+
 
 In a banking environment, it's crucial to understand customer behaviors, transaction patterns, and overall financial health. I was tasked with analyzing banking data to derive actionable insights. The dataset included several tables: Customers, Accounts, Transactions, and Branches, with relationships established between them. The goal was to answer specific questions that would help the bank improve its services and operations.
 
-**Task:**
+## Task:
 
 1.The objective was to analyze the banking data to answer the following ten questions:
 
@@ -37,20 +38,20 @@ In a banking environment, it's crucial to understand customer behaviors, transac
 11.Calculate the average balance per customer at the end of each month over the past year.
 
 
-**Action:**
+## Action:
 
 To achieve these objectives, I performed the following actions:
 
 
 
-**Data Preparation:**
+### Data Preparation:
 
 Loaded the data from the respective tables (Customers, Accounts, Transactions, Branches).
 
 Ensured that the relationships between tables were correctly established for accurate querying.
 
 
-**Query Development:**
+### Query Development:
 
 
 Query 1: Identified customers with no transactions in the last year using a JOIN between Customers and Transactions tables, and filtered by transaction date.
@@ -198,7 +199,7 @@ GROUP BY
     order by  MONTH(t.transaction_date), YEAR(t.transaction_date);
 ```
 
-**Result:**
+## Result:
 
 The analysis provided valuable insights into customer behavior, branch performance, and transaction patterns. Key results included:
 
